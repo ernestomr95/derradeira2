@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eventos - A Derradeira</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <style>
+        body { background-color: black; font-family: 'Roboto Condensed', sans-serif; color: white; }
+        h2 { color: #4a7c59; text-align: center; margin: 20px 0; }
+        .inicio { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .volver { text-align: center; margin: 20px 0; }
+        .volver a { color: #4a7c59; font-size: 1.2em; }
+        .evento-item { background: rgba(255, 255, 255, 0.1); padding: 25px; border-radius: 15px; margin-bottom: 20px; display: flex; gap: 25px; align-items: center; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .evento-fecha { background: linear-gradient(45deg, #4a7c59, #6a9c79); color: white; padding: 15px 20px; border-radius: 10px; font-weight: bold; min-width: 120px; }
+        .evento-content h3 { color: #4a7c59; font-size: 1.4em; margin-bottom: 10px; }
+        .evento-content p { color: #ccc; margin-bottom: 5px; }
+        .evento-hora { color: #4a7c59; font-weight: bold; }
+        @media (max-width: 768px) { .evento-item { flex-direction: column; text-align: center; } }
+    </style>
+</head>
+<body style="background-color:black;" class="text-center">
+    <a href="index.html" title="Inicio"><img style="width:40%;max-width:350px;margin-top:20px;" src="https://raw.githubusercontent.com/ernestomr95/derradeira/main/logo.jpg" alt="A Derradeira"></a>
+    <h2 style="color:white;">:: EVENTOS ::</h2>
+    <div class="volver"><a href="index.html">← Volver</a></div>
+    <main class="inicio">
+        <div class="evento-item"><div class="evento-fecha">15 Feb</div><div class="evento-content"><h3>🍺 Noite de Catas</h3><p>Catadas guiadas de 4 cervezas artesanais. Inclúe maridaxe.</p><p class="evento-hora">20:00h - 23:00h</p></div></div>
+        <div class="evento-item"><div class="evento-fecha">22 Feb</div><div class="evento-content"><h3>🎵 Música en VIVO</h3><p>Grupo folk galego. Atmósfera única.</p><p class="evento-hora">21:00h - 01:00h</p></div></div>
+        <div class="evento-item"><div class="evento-fecha">1 Mar</div><div class="evento-content"><h3>⚽ Partido Importante</h3><p>Partido de fútbol en pantalla grande con promocións.</p><p class="evento-hora">18:00h ata rematar</p></div></div>
+    </main>
+</body>
+</html>

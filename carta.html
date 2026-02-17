@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carta - A Derradeira</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <style>
+        body { background-color: black; font-family: 'Roboto Condensed', sans-serif; color: white; }
+        h2 { color: #4a7c59; text-align: center; margin: 20px 0; }
+        .inicio { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .volver { text-align: center; margin: 20px 0; }
+        .volver a { color: #4a7c59; font-size: 1.2em; }
+        .menu-category { margin-bottom: 50px; padding: 30px; background: rgba(255, 255, 255, 0.05); border-radius: 20px; }
+        .categoria-titulo { color: #4a7c59; font-size: 1.8em; margin-bottom: 25px; text-align: center; padding: 15px; background: rgba(74, 124, 89, 0.2); border-radius: 15px; }
+        .menu-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .menu-item { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 15px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .menu-item h4 { color: #4a7c59; font-size: 1.3em; margin-bottom: 10px; }
+        .menu-item p { margin-bottom: 5px; color: #ccc; }
+        .price { font-size: 1.3em; font-weight: bold; color: white; }
+        .tortilla-sizes { display: flex; gap: 20px; flex-wrap: wrap; }
+    </style>
+</head>
+<body style="background-color:black;" class="text-center">
+    <a href="index.html" title="Inicio"><img style="width:40%;max-width:350px;margin-top:20px;" src="https://raw.githubusercontent.com/ernestomr95/derradeira/main/logo.jpg" alt="A Derradeira"></a>
+    <h2 style="color:white;">:: CARTA ::</h2>
+    <div class="volver"><a href="index.html">← Volver</a></div>
+    <main class="inicio">
+        <div class="menu-category">
+            <h3 class="categoria-titulo">🥚 Tortillas</h3>
+            <div class="menu-items">
+                <div class="menu-item"><h4>Tortilla con queijo azul</h4><div class="tortilla-sizes"><p>Pequena — <span class="price">8,50€</span></p><p>Mediana — <span class="price">14,50€</span></p><p>Grande — <span class="price">18,50€</span></p></div></div>
+                <div class="menu-item"><h4>Tortilla con chourizo</h4><div class="tortilla-sizes"><p>Pequena — <span class="price">8,00€</span></p><p>Mediana — <span class="price">14,00€</span></p><p>Grande — <span class="price">18,00€</span></p></div></div>
+                <div class="menu-item"><h4>Tortilla clásica</h4><div class="tortilla-sizes"><p>Pequena — <span class="price">7,50€</span></p><p>Mediana — <span class="price">13,50€</span></p><p>Grande — <span class="price">17,50€</span></p></div></div>
+            </div>
+        </div>
+        <div class="menu-category">
+            <h3 class="categoria-titulo">🥗 Ensaladas</h3>
+            <div class="menu-items">
+                <div class="menu-item"><h4>Ensalada simple</h4><p>(lechuga, cebola, tomate)</p><div class="price">5,50€</div></div>
+                <div class="menu-item"><h4>Ensalada capresse</h4><p>(tomate, mozzarella e aceite de alfábega)</p><div class="price">7,00€</div></div>
+            </div>
+        </div>
+        <div class="menu-category">
+            <h3 class="categoria-titulo">🍖 Pratos / Racións</h3>
+            <div class="menu-items">
+                <div class="menu-item"><h4>Bágoas de polo</h4><div class="price">11,50€</div></div>
+                <div class="menu-item"><h4>Raxo con patacas fritidas</h4><div class="price">13,50€</div></div>
+                <div class="menu-item"><h4>Zorza con patacas fritidas</h4><div class="price">14,00€</div></div>
+                <div class="menu-item"><h4>Solombo de porco á prancha</h4><div class="price">13,00€</div></div>
+                <div class="menu-item"><h4>Chouriciños ao viño</h4><div class="price">8,50€</div></div>
+                <div class="menu-item"><h4>Lacón á feira con cachelos</h4><div class="price">10,00€</div></div>
+                <div class="menu-item"><h4>Xamón asado</h4><div class="price">12,50€</div></div>
+                <div class="menu-item"><h4>Pementos de Padrón</h4><div class="price">8,50€</div></div>
+                <div class="menu-item"><h4>Táboa de queixos</h4><div class="price">9,50€</div></div>
+                <div class="menu-item"><h4>Humus de garavanzo</h4><div class="price">7,00€</div></div>
+                <div class="menu-item"><h4>Humus de lentellas</h4><div class="price">7,00€</div></div>
+                <div class="menu-item"><h4>Patacas fritidas</h4><div class="price">4,00€</div></div>
+                <div class="menu-item"><h4>Pan</h4><div class="price">0,60€</div></div>
+            </div>
+        </div>
+        <div class="menu-category">
+            <h3 class="categoria-titulo">🍰 Postres</h3>
+            <div class="menu-items">
+                <div class="menu-item"><h4>Tarta da avoa</h4><div class="price">6,00€</div></div>
+                <div class="menu-item"><h4>Tiramisú</h4><div class="price">6,00€</div></div>
+                <div class="menu-item"><h4>Tarta de café</h4><div class="price">5,00€</div></div>
+                <div class="menu-item"><h4>Tarta de queixo</h4><div class="price">6,00€</div></div>
+            </div>
+        </div>
+        <div class="menu-category">
+            <h3 class="categoria-titulo">🥪 Bocadillos</h3>
+            <div class="menu-items">
+                <div class="menu-item"><h4>Queixo do país</h4><div class="price">4,50€</div></div>
+                <div class="menu-item"><h4>Peituga de polo</h4><div class="price">5,00€</div></div>
+                <div class="menu-item"><h4>Lacón á feira</h4><div class="price">7,50€</div></div>
+                <div class="menu-item"><h4>Raxo</h4><div class="price">7,00€</div></div>
+                <div class="menu-item"><h4>Zorza</h4><div class="price">7,50€</div></div>
+                <div class="menu-item"><h4>Xamón asado</h4><div class="price">7,50€</div></div>
+            </div>
+        </div>
+        <div class="menu-category">
+            <h3 class="categoria-titulo">➕ Extras Bocadillos</h3>
+            <div class="menu-items">
+                <div class="menu-item"><h4>Extra queixo (EDAM)</h4><div class="price">+0,40€</div></div>
+                <div class="menu-item"><h4>Extra queixo do país</h4><div class="price">+0,50€</div></div>
+                <div class="menu-item"><h4>Extra leituga</h4><div class="price">+0,10€</div></div>
+                <div class="menu-item"><h4>Extra cebola</h4><div class="price">+0,10€</div></div>
+                <div class="menu-item"><h4>Extra tomate</h4><div class="price">+0,10€</div></div>
+                <div class="menu-item"><h4>Extra panceta</h4><div class="price">+0,50€</div></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

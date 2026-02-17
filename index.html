@@ -7,29 +7,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body { background-color: black; font-family: 'Roboto Condensed', sans-serif; color: white; }
         h2 { color: #4a7c59; text-align: center; margin: 20px 0; font-size: 2em; }
-        .inicio { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1200px; margin: 40px auto; padding: 0 20px; }
-        .inicio div a { display: block; transition: transform 0.3s ease; }
-        .inicio div a:hover { transform: scale(1.05); }
-        .inicio img { width: 100%; max-width: 100%; border-radius: 15px; border: 2px solid rgba(74, 124, 89, 0.5); }
+        .inicio { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .inicio div a { display: block; position: relative; overflow: hidden; border-radius: 15px; border: 2px solid rgba(74, 124, 89, 0.5); }
+        .inicio div a:hover { transform: scale(1.02); }
+        .inicio img { width: 100%; height: 200px; object-fit: cover; display: block; }
+        .inicio div a span { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 15px; font-size: 1.5em; font-weight: bold; }
     </style>
 </head>
 <body style="background-color:black;" class="text-center">
     <a href="index.html" title="Nossa carta">
-        <img style="width:40%;max-width:350px;" src="https://raw.githubusercontent.com/ernestomr95/derradeira/main/logo.jpg" alt="A nosa carta">
+        <img style="width:40%;max-width:350px;margin-top:20px;" src="https://raw.githubusercontent.com/ernestomr95/derradeira/main/logo.jpg" alt="A nosa carta">
     </a>
     <h2 style="color:white;">:: A DERRADEIRA ::</h2>
     <main>
         <div class="inicio">
-            <div><a href="carta.html" title="Carta"><img style="max-width:100%;" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400" alt="Carta"></a></div>
-            <div><a href="cervezas.html" title="Cervezas"><img style="max-width:100%;" src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=400" alt="Cervezas"></a></div>
-            <div><a href="eventos.html" title="Eventos"><img style="max-width:100%;" src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=400" alt="Eventos"></a></div>
-            <div><a href="contacto.html" title="Contacto"><img style="max-width:100%;" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400" alt="Contacto"></a></div>
+            <div><a href="carta.html" title="Carta"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400" alt="Carta"><span>CARTA</span></a></div>
+            <div><a href="cervezas.html" title="Cervezas"><img src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=400" alt="Cervezas"><span>CERVEZAS</span></a></div>
+            <div><a href="eventos.html" title="Eventos"><img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=400" alt="Eventos"><span>EVENTOS</span></a></div>
+            <div><a href="contacto.html" title="Contacto"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400" alt="Contacto"><span>CONTACTO</span></a></div>
         </div>
     </main>
     <footer>

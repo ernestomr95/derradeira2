@@ -13,7 +13,7 @@
         .inicio { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
         .volver { text-align: center; margin: 20px 0; }
         .volver a { color: #4a7c59; font-size: 1.2em; }
-        .menu-category { margin-bottom: 50px; padding: 30px; background: rgba(255, 255, 255, 0.05); border-radius: 20px; }
+        .menu-category { margin-bottom: 40px; padding: 30px; background: rgba(255, 255, 255, 0.05); border-radius: 20px; }
         .categoria-titulo { color: #4a7c59; font-size: 1.8em; margin-bottom: 25px; text-align: center; padding: 15px; background: rgba(74, 124, 89, 0.2); border-radius: 15px; }
         .menu-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
         .menu-item { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 15px; margin-bottom: 15px; border: 1px solid rgba(255, 255, 255, 0.1); cursor: pointer; transition: transform 0.3s ease; }
@@ -25,6 +25,7 @@
         .menu-item-photo { display: none; margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(74, 124, 89, 0.3); }
         .menu-item-photo img { width: 100%; max-height: 200px; object-fit: cover; border-radius: 10px; }
         .menu-item.active .menu-item-photo { display: block; }
+        .extras-title { color: #4a7c59; font-size: 1.3em; margin: 20px 0 15px; text-align: center; }
     </style>
 </head>
 <body style="background-color:black;" class="text-center">
@@ -70,6 +71,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="menu-category">
             <h3 class="categoria-titulo">🥗 Ensaladas</h3>
             <div class="menu-items">
@@ -91,6 +93,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="menu-category">
             <h3 class="categoria-titulo">🍖 Pratos / Racións</h3>
             <div class="menu-items">
@@ -187,39 +190,7 @@
                 </div>
             </div>
         </div>
-        <div class="menu-category">
-            <h3 class="categoria-titulo">🍰 Postres</h3>
-            <div class="menu-items">
-                <div class="menu-item">
-                    <h4>Tarta da avoa</h4>
-                    <div class="price">6,00€</div>
-                    <div class="menu-item-photo">
-                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400" alt="Tarta da avoa">
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <h4>Tiramisú</h4>
-                    <div class="price">6,00€</div>
-                    <div class="menu-item-photo">
-                        <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400" alt="Tiramisú">
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <h4>Tarta de café</h4>
-                    <div class="price">5,00€</div>
-                    <div class="menu-item-photo">
-                        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400" alt="Tarta de café">
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <h4>Tarta de queixo</h4>
-                    <div class="price">6,00€</div>
-                    <div class="menu-item-photo">
-                        <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=400" alt="Tarta de queixo">
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <div class="menu-category">
             <h3 class="categoria-titulo">🥪 Bocadillos</h3>
             <div class="menu-items">
@@ -266,9 +237,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="menu-category">
-            <h3 class="categoria-titulo">➕ Extras Bocadillos</h3>
+            <h4 class="extras-title">➕ EXTRAS</h4>
             <div class="menu-items">
                 <div class="menu-item">
                     <h4>Extra queixo (EDAM)</h4>
@@ -293,6 +262,40 @@
                 <div class="menu-item">
                     <h4>Extra panceta</h4>
                     <div class="price">+0,50€</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu-category">
+            <h3 class="categoria-titulo">🍰 Postres</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h4>Tarta da avoa</h4>
+                    <div class="price">6,00€</div>
+                    <div class="menu-item-photo">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400" alt="Tarta da avoa">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <h4>Tiramisú</h4>
+                    <div class="price">6,00€</div>
+                    <div class="menu-item-photo">
+                        <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400" alt="Tiramisú">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <h4>Tarta de café</h4>
+                    <div class="price">5,00€</div>
+                    <div class="menu-item-photo">
+                        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400" alt="Tarta de café">
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <h4>Tarta de queixo</h4>
+                    <div class="price">6,00€</div>
+                    <div class="menu-item-photo">
+                        <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=400" alt="Tarta de queixo">
+                    </div>
                 </div>
             </div>
         </div>
